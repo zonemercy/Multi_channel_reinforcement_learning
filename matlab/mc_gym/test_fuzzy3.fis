@@ -1,0 +1,53 @@
+[System]
+Name='test_fuzzy3'
+Type='mamdani'
+Version=2.0
+NumInputs=3
+NumOutputs=1
+NumRules=7
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Reliability'
+Range=[0 1]
+NumMFs=3
+MF1='low':'gauss2mf',[0.104 -0.153 0.139 0.0761]
+MF2='middle':'gauss2mf',[0.09 0.514 0.0861 0.571]
+MF3='high':'gauss2mf',[0.145 0.974 0.0927 1.02]
+
+[Input2]
+Name='Latency'
+Range=[0 0.3]
+NumMFs=3
+MF1='Low':'gauss2mf',[0.00039 -0.0392 0.07 0.02]
+MF2='Middle':'gaussmf',[0.0445 0.25]
+MF3='High':'gaussmf',[0.055 0.4]
+
+[Input3]
+Name='Energy'
+Range=[1 10]
+NumMFs=3
+MF1='saving':'gaussmf',[0.3173 0.8]
+MF2='normal':'gaussmf',[0.2167 1.8]
+MF3='waste':'gauss2mf',[0.2467 2.57 0.1497 2.9]
+
+[Output1]
+Name='Low-Trigger'
+Range=[0.6 0.75]
+NumMFs=3
+MF1='Hard':'gauss2mf',[0.05653 0.2626 0.05293 0.3378]
+MF2='Middle':'gauss2mf',[0.0269 0.354121309197503 0.0454 0.402]
+MF3='Easy':'gauss2mf',[0.0469 0.637 0.0657 0.763]
+
+[Rules]
+1 3 0, 1 (1) : 2
+0 0 3, 3 (1) : 2
+0 0 1, 1 (1) : 2
+2 2 0, 2 (1) : 2
+3 1 0, 1 (1) : 1
+3 1 1, 2 (1) : 1
+1 3 3, 3 (1) : 1

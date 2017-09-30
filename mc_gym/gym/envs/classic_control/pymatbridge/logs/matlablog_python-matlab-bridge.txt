@@ -1,0 +1,370 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2014 The MathWorks, Inc.
+                     R2014a (8.3.0.532) 64-bit (maci64)
+                             February 11, 2014
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+Webserver Available on http://localhost:4000/
+POST /test_connect.m HTTP/1.1
+Accept-Encoding: identity
+Content-Length: 23
+Host: localhost:4000
+Content-Type: application/x-www-form-urlencoded
+Connection: close
+User-Agent: Python-urllib/2.7
+
+id=python-matlab-bridge
+              Post: [1x1 struct]
+    AcceptEncoding: 'identity'
+     ContentLength: '23'
+              Host: 'localhost:4000'
+       ContentType: [1x1 struct]
+        Connection: 'close'
+         UserAgent: 'Python-urllib/2.7'
+           Content: [1x1 struct]
+
+HTTP/1.0 200 OK
+Date: Tue, 12 Oct 2010 09:19:05 GMT
+Server: Matlab Webserver
+X-Powered-By: Matlab8.3.0.532 (R2014a)
+Set-Cookie: SESSID=5322082bf473207961031e3df1f45a22; path=/
+Expires: Thu, 19 Nov 1980 08:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Connection: close
+Content-Length: 68
+Content-Type: text/html; charset=UTF-8
+
+
+POST /web_feval.m HTTP/1.1
+Accept-Encoding: identity
+Content-Length: 204
+Host: localhost:4000
+Content-Type: application/x-www-form-urlencoded
+Connection: close
+User-Agent: Python-urllib/2.7
+
+func_path=%2FUsers%2Fzonemercy%2FDocuments%2FMATLAB%2Fmc_gym%2FCopy_of_oraginal.m&arguments=%7B%22arg1%22%3A+1%2C+%22arg2%22%3A+11.693%2C+%22arg3%22%3A+11.55%2C+%22arg4%22%3A+14.537%2C+%22arg5%22%3A+19%7D
+              Post: [1x1 struct]
+    AcceptEncoding: 'identity'
+     ContentLength: '204'
+              Host: 'localhost:4000'
+       ContentType: [1x1 struct]
+        Connection: 'close'
+         UserAgent: 'Python-urllib/2.7'
+           Content: [1x1 struct]
+
+HTTP/1.0 200 OK
+Date: Tue, 12 Oct 2010 09:19:05 GMT
+Server: Matlab Webserver
+X-Powered-By: Matlab8.3.0.532 (R2014a)
+Set-Cookie: SESSID=5322082bf473207961031e3df1f45a22; path=/
+Expires: Thu, 19 Nov 1980 08:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Connection: close
+Content-Length: 260
+Content-Type: text/html; charset=UTF-8
+
+
+POST /web_feval.m HTTP/1.1
+Accept-Encoding: identity
+Content-Length: 203
+Host: localhost:4000
+Content-Type: application/x-www-form-urlencoded
+Connection: close
+User-Agent: Python-urllib/2.7
+
+func_path=%2FUsers%2Fzonemercy%2FDocuments%2FMATLAB%2Fmc_gym%2FCopy_of_oraginal.m&arguments=%7B%22arg1%22%3A+1%2C+%22arg2%22%3A+9.603%2C+%22arg3%22%3A+17.74%2C+%22arg4%22%3A+19.833%2C+%22arg5%22%3A+15%7D
+              Post: [1x1 struct]
+    AcceptEncoding: 'identity'
+     ContentLength: '203'
+              Host: 'localhost:4000'
+       ContentType: [1x1 struct]
+        Connection: 'close'
+         UserAgent: 'Python-urllib/2.7'
+           Content: [1x1 struct]
+
+HTTP/1.0 200 OK
+Date: Tue, 12 Oct 2010 09:19:05 GMT
+Server: Matlab Webserver
+X-Powered-By: Matlab8.3.0.532 (R2014a)
+Set-Cookie: SESSID=5322082bf473207961031e3df1f45a22; path=/
+Expires: Thu, 19 Nov 1980 08:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Connection: close
+Content-Length: 259
+Content-Type: text/html; charset=UTF-8
+
+
+POST /web_feval.m HTTP/1.1
+Accept-Encoding: identity
+Content-Length: 203
+Host: localhost:4000
+Content-Type: application/x-www-form-urlencoded
+Connection: close
+User-Agent: Python-urllib/2.7
+
+func_path=%2FUsers%2Fzonemercy%2FDocuments%2FMATLAB%2Fmc_gym%2FCopy_of_oraginal.m&arguments=%7B%22arg1%22%3A+1%2C+%22arg2%22%3A+13.055%2C+%22arg3%22%3A+39.16%2C+%22arg4%22%3A+17.496%2C+%22arg5%22%3A+7%7D
+              Post: [1x1 struct]
+    AcceptEncoding: 'identity'
+     ContentLength: '203'
+              Host: 'localhost:4000'
+       ContentType: [1x1 struct]
+        Connection: 'close'
+         UserAgent: 'Python-urllib/2.7'
+           Content: [1x1 struct]
+
+HTTP/1.0 200 OK
+Date: Tue, 12 Oct 2010 09:19:05 GMT
+Server: Matlab Webserver
+X-Powered-By: Matlab8.3.0.532 (R2014a)
+Set-Cookie: SESSID=5322082bf473207961031e3df1f45a22; path=/
+Expires: Thu, 19 Nov 1980 08:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Connection: close
+Content-Length: 259
+Content-Type: text/html; charset=UTF-8
+
+
+POST /web_feval.m HTTP/1.1
+Accept-Encoding: identity
+Content-Length: 203
+Host: localhost:4000
+Content-Type: application/x-www-form-urlencoded
+Connection: close
+User-Agent: Python-urllib/2.7
+
+func_path=%2FUsers%2Fzonemercy%2FDocuments%2FMATLAB%2Fmc_gym%2FCopy_of_oraginal.m&arguments=%7B%22arg1%22%3A+1%2C+%22arg2%22%3A+15.508%2C+%22arg3%22%3A+37.31%2C+%22arg4%22%3A+8.487%2C+%22arg5%22%3A+14%7D
+              Post: [1x1 struct]
+    AcceptEncoding: 'identity'
+     ContentLength: '203'
+              Host: 'localhost:4000'
+       ContentType: [1x1 struct]
+        Connection: 'close'
+         UserAgent: 'Python-urllib/2.7'
+           Content: [1x1 struct]
+
+HTTP/1.0 200 OK
+Date: Tue, 12 Oct 2010 09:19:05 GMT
+Server: Matlab Webserver
+X-Powered-By: Matlab8.3.0.532 (R2014a)
+Set-Cookie: SESSID=5322082bf473207961031e3df1f45a22; path=/
+Expires: Thu, 19 Nov 1980 08:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Connection: close
+Content-Length: 259
+Content-Type: text/html; charset=UTF-8
+
+
+POST /web_feval.m HTTP/1.1
+Accept-Encoding: identity
+Content-Length: 204
+Host: localhost:4000
+Content-Type: application/x-www-form-urlencoded
+Connection: close
+User-Agent: Python-urllib/2.7
+
+func_path=%2FUsers%2Fzonemercy%2FDocuments%2FMATLAB%2Fmc_gym%2FCopy_of_oraginal.m&arguments=%7B%22arg1%22%3A+1%2C+%22arg2%22%3A+18.904%2C+%22arg3%22%3A+16.41%2C+%22arg4%22%3A+16.923%2C+%22arg5%22%3A+17%7D
+              Post: [1x1 struct]
+    AcceptEncoding: 'identity'
+     ContentLength: '204'
+              Host: 'localhost:4000'
+       ContentType: [1x1 struct]
+        Connection: 'close'
+         UserAgent: 'Python-urllib/2.7'
+           Content: [1x1 struct]
+
+HTTP/1.0 200 OK
+Date: Tue, 12 Oct 2010 09:19:05 GMT
+Server: Matlab Webserver
+X-Powered-By: Matlab8.3.0.532 (R2014a)
+Set-Cookie: SESSID=5322082bf473207961031e3df1f45a22; path=/
+Expires: Thu, 19 Nov 1980 08:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Connection: close
+Content-Length: 262
+Content-Type: text/html; charset=UTF-8
+
+
+POST /web_feval.m HTTP/1.1
+Accept-Encoding: identity
+Content-Length: 202
+Host: localhost:4000
+Content-Type: application/x-www-form-urlencoded
+Connection: close
+User-Agent: Python-urllib/2.7
+
+func_path=%2FUsers%2Fzonemercy%2FDocuments%2FMATLAB%2Fmc_gym%2FCopy_of_oraginal.m&arguments=%7B%22arg1%22%3A+1%2C+%22arg2%22%3A+2.744%2C+%22arg3%22%3A+10.79%2C+%22arg4%22%3A+8.968%2C+%22arg5%22%3A+17%7D
+              Post: [1x1 struct]
+    AcceptEncoding: 'identity'
+     ContentLength: '202'
+              Host: 'localhost:4000'
+       ContentType: [1x1 struct]
+        Connection: 'close'
+         UserAgent: 'Python-urllib/2.7'
+           Content: [1x1 struct]
+
+HTTP/1.0 200 OK
+Date: Tue, 12 Oct 2010 09:19:05 GMT
+Server: Matlab Webserver
+X-Powered-By: Matlab8.3.0.532 (R2014a)
+Set-Cookie: SESSID=5322082bf473207961031e3df1f45a22; path=/
+Expires: Thu, 19 Nov 1980 08:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Connection: close
+Content-Length: 258
+Content-Type: text/html; charset=UTF-8
+
+
+POST /web_feval.m HTTP/1.1
+Accept-Encoding: identity
+Content-Length: 202
+Host: localhost:4000
+Content-Type: application/x-www-form-urlencoded
+Connection: close
+User-Agent: Python-urllib/2.7
+
+func_path=%2FUsers%2Fzonemercy%2FDocuments%2FMATLAB%2Fmc_gym%2FCopy_of_oraginal.m&arguments=%7B%22arg1%22%3A+1%2C+%22arg2%22%3A+10.891%2C+%22arg3%22%3A+6.31%2C+%22arg4%22%3A+7.214%2C+%22arg5%22%3A+18%7D
+              Post: [1x1 struct]
+    AcceptEncoding: 'identity'
+     ContentLength: '202'
+              Host: 'localhost:4000'
+       ContentType: [1x1 struct]
+        Connection: 'close'
+         UserAgent: 'Python-urllib/2.7'
+           Content: [1x1 struct]
+
+HTTP/1.0 200 OK
+Date: Tue, 12 Oct 2010 09:19:05 GMT
+Server: Matlab Webserver
+X-Powered-By: Matlab8.3.0.532 (R2014a)
+Set-Cookie: SESSID=5322082bf473207961031e3df1f45a22; path=/
+Expires: Thu, 19 Nov 1980 08:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Connection: close
+Content-Length: 257
+Content-Type: text/html; charset=UTF-8
+
+
+POST /web_feval.m HTTP/1.1
+Accept-Encoding: identity
+Content-Length: 200
+Host: localhost:4000
+Content-Type: application/x-www-form-urlencoded
+Connection: close
+User-Agent: Python-urllib/2.7
+
+func_path=%2FUsers%2Fzonemercy%2FDocuments%2FMATLAB%2Fmc_gym%2FCopy_of_oraginal.m&arguments=%7B%22arg1%22%3A+1%2C+%22arg2%22%3A+5.56%2C+%22arg3%22%3A+15.7%2C+%22arg4%22%3A+18.318%2C+%22arg5%22%3A+7%7D
+              Post: [1x1 struct]
+    AcceptEncoding: 'identity'
+     ContentLength: '200'
+              Host: 'localhost:4000'
+       ContentType: [1x1 struct]
+        Connection: 'close'
+         UserAgent: 'Python-urllib/2.7'
+           Content: [1x1 struct]
+
+HTTP/1.0 200 OK
+Date: Tue, 12 Oct 2010 09:19:05 GMT
+Server: Matlab Webserver
+X-Powered-By: Matlab8.3.0.532 (R2014a)
+Set-Cookie: SESSID=5322082bf473207961031e3df1f45a22; path=/
+Expires: Thu, 19 Nov 1980 08:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Connection: close
+Content-Length: 260
+Content-Type: text/html; charset=UTF-8
+
+
+POST /web_feval.m HTTP/1.1
+Accept-Encoding: identity
+Content-Length: 203
+Host: localhost:4000
+Content-Type: application/x-www-form-urlencoded
+Connection: close
+User-Agent: Python-urllib/2.7
+
+func_path=%2FUsers%2Fzonemercy%2FDocuments%2FMATLAB%2Fmc_gym%2FCopy_of_oraginal.m&arguments=%7B%22arg1%22%3A+1%2C+%22arg2%22%3A+6.485%2C+%22arg3%22%3A+19.16%2C+%22arg4%22%3A+16.552%2C+%22arg5%22%3A+14%7D
+              Post: [1x1 struct]
+    AcceptEncoding: 'identity'
+     ContentLength: '203'
+              Host: 'localhost:4000'
+       ContentType: [1x1 struct]
+        Connection: 'close'
+         UserAgent: 'Python-urllib/2.7'
+           Content: [1x1 struct]
+
+HTTP/1.0 200 OK
+Date: Tue, 12 Oct 2010 09:19:05 GMT
+Server: Matlab Webserver
+X-Powered-By: Matlab8.3.0.532 (R2014a)
+Set-Cookie: SESSID=5322082bf473207961031e3df1f45a22; path=/
+Expires: Thu, 19 Nov 1980 08:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Connection: close
+Content-Length: 259
+Content-Type: text/html; charset=UTF-8
+
+
+POST /web_feval.m HTTP/1.1
+Accept-Encoding: identity
+Content-Length: 201
+Host: localhost:4000
+Content-Type: application/x-www-form-urlencoded
+Connection: close
+User-Agent: Python-urllib/2.7
+
+func_path=%2FUsers%2Fzonemercy%2FDocuments%2FMATLAB%2Fmc_gym%2FCopy_of_oraginal.m&arguments=%7B%22arg1%22%3A+1%2C+%22arg2%22%3A+4.68%2C+%22arg3%22%3A+26.93%2C+%22arg4%22%3A+14.263%2C+%22arg5%22%3A+5%7D
+              Post: [1x1 struct]
+    AcceptEncoding: 'identity'
+     ContentLength: '201'
+              Host: 'localhost:4000'
+       ContentType: [1x1 struct]
+        Connection: 'close'
+         UserAgent: 'Python-urllib/2.7'
+           Content: [1x1 struct]
+
+HTTP/1.0 200 OK
+Date: Tue, 12 Oct 2010 09:19:05 GMT
+Server: Matlab Webserver
+X-Powered-By: Matlab8.3.0.532 (R2014a)
+Set-Cookie: SESSID=5322082bf473207961031e3df1f45a22; path=/
+Expires: Thu, 19 Nov 1980 08:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Connection: close
+Content-Length: 261
+Content-Type: text/html; charset=UTF-8
+
+
+POST /exit_server.m HTTP/1.1
+Accept-Encoding: identity
+Content-Length: 23
+Host: localhost:4000
+Content-Type: application/x-www-form-urlencoded
+Connection: close
+User-Agent: Python-urllib/2.7
+
+id=python-matlab-bridge
+              Post: [1x1 struct]
+    AcceptEncoding: 'identity'
+     ContentLength: '23'
+              Host: 'localhost:4000'
+       ContentType: [1x1 struct]
+        Connection: 'close'
+         UserAgent: 'Python-urllib/2.7'
+           Content: [1x1 struct]
+
